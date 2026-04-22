@@ -16,7 +16,7 @@ CONFIG_DEFAULTS = {
     "batch_size": 2,
     "max_tokens": 2048,
     "screenshot_prompt": (
-        "Describe what is being worked on in this screenshot in general terms in a single sentence. For instance if an gmail is open, write that email is being attended to; if Teams is open, respond that they are in a meeting or in a conference call; etc."
+        "Describe what the user is doing in general terms in a single sentence using the screenshots for reference. For instance if an gmail is open, write that email is being attended to; if Teams is open, respond that they are in a meeting or in a conference call; etc."
     ),
     "chunk_prompt": (
         "Collect the work activity from the descriptions and compose a brief time log entry."
