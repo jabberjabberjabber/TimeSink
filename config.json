@@ -1,0 +1,10 @@
+{
+  "time_chunk": 15,
+  "screenshot_interval": 60,
+  "batch_size": 2,
+  "max_tokens": 2048,
+  "screenshot_prompt": "Describe what the user is doing in general terms in a single sentence using the screenshots for reference. For instance if an gmail is open, write that email is being attended to; if Teams is open, respond that they are in a meeting or in a conference call; etc.",
+  "chunk_prompt": "Collect the work activity from the descriptions and compose a brief time log entry.",
+  "koboldcpp_url": "http://localhost:5001",
+  "whispermodel": "https://huggingface.co/koboldcpp/whisper/resolve/main/whisper-base.en-q5_1.bin"
+}

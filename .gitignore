@@ -1,0 +1,7 @@
+/__pycache__
+/python
+/sessions
+*.gguf
+*.bin
+*.exe
+*.txt
